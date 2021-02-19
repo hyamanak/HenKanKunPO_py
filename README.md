@@ -1,35 +1,35 @@
 # HenKanKunPO_py
-Fix Red Hat Japanese style guide misalignment for PO pre-filled contents.
+## Fix Red Hat Japanese style guide misalignment for PO pre-filled contents.
 
-Dependencies
-python modules
-  polib
-  jaconv
+### Dependencies
+## python modules
+polib  
+jaconv
 
 
-It converts Zenkaku alphabet characters, special characters, and numbers to hankaku ones.
+It converts Zenkaku alphabet characters, special characters, and numbers to hankaku ones.  
 Also it adds space between Zenkaku and Hankaku characters.
 
-Before:\n
+Before:  
 Red Hat Linuxは、すっごいオペレーティングシステムです。
 
-After:
+After:  
 Red Hat Linux は、すっごいオペレーティングシステム。
 
 
 Also, HenKanKunPO converts terminology without Cho-on expressions.
 
-Before:
+Before:  
 お使いのコンピュータで、/User/hiroshi/Desktopのディレクトリに移動してください。
 
-After:
+After:  
 お使いのコンピューターで、/User/hiroshi/Desktop のディレクトリーに移動してださい。
 
 Very cool!
 
-How to use:
-Type po file name as first argument. 
-Put yogo file name as second argument.
+How to use:  
+Type po file name as a first argument. 
+Put yogo file name as a second argument.
 
 $python3 HenkanKunPO.py XXX.po yogo.txt
 
