@@ -22,16 +22,19 @@ Also, HenKanKunPO converts terminologies (needs to be defined) without Cho-on ex
 Before:  
 お使いのコンピュータで、/User/hiroshi/Desktopのディレクトリに移動してください。
 
+
 After:  
 お使いのコンピューターで、/User/hiroshi/Desktop のディレクトリーに移動してださい。
 
+
 Very cool!
 
-How to use:  
-Specify a po file name as a first argument. 
-Put a yogo file name as a second argument.
 
-$python3 HenkanKunPO.py XXX.po yogo.txt
+How to use:  
+Specify a po file name as a first argument, yogo file name as a second argument, output file name as a third argument.
+
+Example:  
+$python3 HenkanKunPO.py XXX.po yogo.txt output.po
 
 About Yogo.txt
 
@@ -46,7 +49,7 @@ breaking each line.
 レジストリ  
 
 
-Those terms will have "ー" added, therefore, they will look in output.po file:
+Those terms will have "ー" added, therefore, they will look in output.po file:  
 コンピューター  
 バイナリー  
 レジストリー  
