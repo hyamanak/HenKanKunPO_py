@@ -17,7 +17,7 @@ After:
 Red Hat Enterprise Linux 8 (RHEL 8) は、すっごいオペレーティングシステムです。
 
 
-Also, HenKanKunPO converts terminology without Cho-on expressions.
+Also, HenKanKunPO converts terminologies (needs to be defined) without Cho-on expressions.
 
 Before:  
 お使いのコンピュータで、/User/hiroshi/Desktopのディレクトリに移動してください。
