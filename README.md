@@ -47,6 +47,6 @@ breaking each line.
 
 
 Those terms will have "ー" added, therefore, they will look in output.po file:
-コンピューター
-バイナリー
-レジストリー
+コンピューター  
+バイナリー  
+レジストリー  
