@@ -28,8 +28,8 @@ After:
 Very cool!
 
 How to use:  
-Type po file name as a first argument. 
-Put yogo file name as a second argument.
+Specify a po file name as a first argument. 
+Put a yogo file name as a second argument.
 
 $python3 HenkanKunPO.py XXX.po yogo.txt
 
