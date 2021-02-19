@@ -49,5 +49,5 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f, open(sys.argv[2], mode=
         
         yogoCheck(entry.msgstr)
             
-po.save("output.po")
+po.save(sys.argv[3])
 
