@@ -10,7 +10,7 @@ python modules
 It converts Zenkaku alphabet characters, special characters, and numbers to hankaku ones.
 Also it adds space between Zenkaku and Hankaku characters.
 
-Before:
+Before:\n
 Red Hat Linuxは、すっごいオペレーティングシステムです。
 
 After:
