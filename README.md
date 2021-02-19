@@ -1,5 +1,5 @@
 # HenKanKunPO_py
-### Fix Red Hat Japanese style guide misalignment for PO pre-filled contents.
+### Fixies Red Hat Japanese style guide misalignment for PO pre-filled contents.
 
 ### Dependencies
 ## python modules
