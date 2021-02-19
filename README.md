@@ -1,5 +1,5 @@
 # HenKanKunPO_py
-## Fix Red Hat Japanese style guide misalignment for PO pre-filled contents.
+### Fix Red Hat Japanese style guide misalignment for PO pre-filled contents.
 
 ### Dependencies
 ## python modules
@@ -11,10 +11,10 @@ It converts Zenkaku alphabet characters, special characters, and numbers to hank
 Also it adds space between Zenkaku and Hankaku characters.
 
 Before:  
-Red Hat Linuxは、すっごいオペレーティングシステムです。
+Ｒｅｄ　Ｈａｔ　Ｅｎｔｅｒｐｒｉｓｅ　Ｌｉｎｕｘ ８（ＲＨＥＬ ８）は、すっごいオペレーティングシステムです。
 
 After:  
-Red Hat Linux は、すっごいオペレーティングシステム。
+Red Hat Enterprise Linux 8 (RHEL 8) は、すっごいオペレーティングシステムです。
 
 
 Also, HenKanKunPO converts terminology without Cho-on expressions.
@@ -40,10 +40,10 @@ breaking each line.
 
 
 
--- sample Yogo.txt --
-コンピュータ
-バイナリ
-レジストリ
+-- sample Yogo.txt --  
+コンピュータ  
+バイナリ  
+レジストリ  
 
 
 Those terms will have "ー" added, therefore, they will look in output.po file:
