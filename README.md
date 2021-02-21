@@ -10,7 +10,10 @@ jaconv
 It converts Zenkaku alphabet characters, special characters, and numbers to hankaku ones.  
 Also it adds space between Zenkaku and Hankaku characters.
 
-Before:  
+
+Here are before and after examples  
+
+Before:
 Ｒｅｄ　Ｈａｔ　Ｅｎｔｅｒｐｒｉｓｅ　Ｌｉｎｕｘ ８（ＲＨＥＬ ８）は、すっごいオペレーティングシステムです。
 
 After:  
@@ -24,10 +27,7 @@ Before:
 
 
 After:  
-お使いのコンピューターで、/User/hiroshi/Desktop のディレクトリーに移動してださい。
-
-
-Very cool!
+お使いのコンピューターで、/User/hiroshi/Desktop のディレクトリーに移動してください。
 
 
 How to use:  
