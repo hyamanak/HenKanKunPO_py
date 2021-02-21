@@ -13,7 +13,7 @@ Also it adds space between Zenkaku and Hankaku characters.
 
 Here are before and after examples  
 
-Before:
+Before:  
 Ｒｅｄ　Ｈａｔ　Ｅｎｔｅｒｐｒｉｓｅ　Ｌｉｎｕｘ ８（ＲＨＥＬ ８）は、すっごいオペレーティングシステムです。
 
 After:  
