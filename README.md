@@ -31,7 +31,8 @@ After:
 
 
 How to use:  
-Specify a po file name as a first argument, yogo file name as a second argument, output file name as a third argument.
+Specify a po file name as a first argument, yogo file name as a second argument, output file name as a third argument::
+HenKanKunPO.py input-file-name.po yogo-file-name.txt ouptput-file-name.po
 
 Example:  
 $python3 HenkanKunPO.py XXX.po yogo.txt output.po
