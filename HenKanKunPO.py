@@ -43,11 +43,13 @@ with open(sys.argv[1], mode='r', encoding='utf-8') as f, open(sys.argv[2], mode=
         zenWithHan        = re.findall(r"[ぁ-んァ-ンー-龥][a-zA-Z0-9@\[\(*&_\-\+|~^%$#@!?\"\']", entry.msgstr)
         numWithSpcialChar = re.findall(r"[a-zA-Z0-9][\(]", entry.msgstr)
 
-        addSpace(hanWithZen)
-        addSpace(zenWithHan)
-        addSpace(numWithSpcialChar)
-        
-        yogoCheck(entry.msgstr)
+        if re.search(r"[ぁ-んァ-ンー-龥]", entry.msgstr):
+            
+            addSpace(hanWithZen)
+            addSpace(zenWithHan)
+            addSpace(numWithSpcialChar)
+            #print(entry.msgstr)
+            yogoCheck(entry.msgstr)
             
 po.save(sys.argv[3])
 
